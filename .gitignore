@@ -1,2 +1,4 @@
 /cache/
 /config/development/
+/venv
+# dexcom.conf

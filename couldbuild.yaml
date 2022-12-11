@@ -1,0 +1,9 @@
+steps:
+- name: 'us.gcr.io/gae-runtimes/utilities/gcs-fetcher'
+  args:
+    [
+      "build",
+      "-t",
+      "gcr.io/my-project/github.com/eje211/DexcomApp:$COMMIT_SHA",
+      "./backend",
+    ]
